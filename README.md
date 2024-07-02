@@ -11,11 +11,25 @@ Fetal health monitoring is crucial for ensuring the well-being of both the mothe
 <br>
 A Cardiotocography (CTG) test is a prenatal monitoring technique used to assess fetal well-being by measuring the fetal heart rate (FHR) and uterine contractions. This model classifies the outcome of Cardiotocogram test to ensure the well being of the fetus.
 
+## Data
+
+The dataset used in this project is available in the `data` directory. It is in CSV (Comma-Separated Values) format.
+
+This dataset contains 2126 records of features extracted from Cardiotocogram exams, which were then classified by three expert obstetritians into 3 classes:
+
+
+- Normal
+- Suspect
+- Pathological
+
+Dataset Source Link: [kaggle dataset](https://www.kaggle.com/datasets/andrewmvd/fetal-health-classification/data?select=fetal_health.csv)
+
+
 ## Notebooks
 
-https://colab.research.google.com/drive/1m9-S6bMUwN9fUwCjUpo4xl1aKWxcztYT?usp=sharing
+[EDA Notebook](https://colab.research.google.com/drive/1m9-S6bMUwN9fUwCjUpo4xl1aKWxcztYT?usp=sharing)
 <br>
-https://colab.research.google.com/drive/1t0qQq-2wXez6zYjnJZfvbBPxXrhI4VIO?usp=sharing
+[Model-training Notebook](https://colab.research.google.com/drive/1t0qQq-2wXez6zYjnJZfvbBPxXrhI4VIO?usp=sharing)
 <br/><br/>
 *Note: Switch to T4 GPU for faster execution*
 
